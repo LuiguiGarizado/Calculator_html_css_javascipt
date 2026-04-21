@@ -1,40 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calculator</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Calculator</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <div class="calculator">
-        <div class="screen">
-            <form class="screen-grid">
-            <input type="text" id="num1" name="num1" readonly> 
-            <input type="text" id="sign" name="sign" readonly>
-            <input type="text" id="num2" name="num2" readonly> 
-            <input type="text" id="result" name="result" readonly> 
-            </form>
-        </div>
-        <button class="btn" id="c">C</button>
-        <button class="btn" id="delete">←</button>
-        <button class="btn">/</button>
-        <button class="btn">*</button>
-        <button class="btn">7</button>
-        <button class="btn">8</button>
-        <button class="btn">9</button>
-        <button class="btn">-</button>
-        <button class="btn">4</button>
-        <button class="btn">5</button>
-        <button class="btn">6</button>
-        <button class="btn">+</button>
-        <button class="btn">1</button>
-        <button class="btn">2</button>
-        <button class="btn">3</button>
-        <button class="btn" id="equal">=</button>
-        <button class="btn" id="zero">0</button>
-        <button class="btn">.</button>
+  <div class="calculator">
+    <!-- Pantalla con 4 zonas -->
+    <div class="screen">
+      <div class="screen-grid">
+        <input type="text" id="num1"   class="area-n1"   readonly />
+        <input type="text" id="sign"   class="area-sign" readonly />
+        <input type="text" id="num2"   class="area-n2"   readonly />
+        <input type="text" id="result" class="area-res"  readonly />
+      </div>
     </div>
-    <script src="script.js"></script>
+
+    <!-- Botones -->
+    <button class="btn" id="c">C</button>
+    <button class="btn" id="delete">←</button>
+    <button class="btn">/</button>
+    <button class="btn">*</button>
+    <button class="btn">7</button>
+    <button class="btn">8</button>
+    <button class="btn">9</button>
+    <button class="btn">-</button>
+    <button class="btn">4</button>
+    <button class="btn">5</button>
+    <button class="btn">6</button>
+    <button class="btn">+</button>
+    <button class="btn">1</button>
+    <button class="btn">2</button>
+    <button class="btn">3</button>
+    <button class="btn" id="equal">=</button>
+    <button class="btn" id="zero">0</button>
+    <button class="btn">.</button>
+  </div>
+  <script src="script.js"></script>
 </body>
 </html>
