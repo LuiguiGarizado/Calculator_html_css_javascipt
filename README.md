@@ -1,6 +1,6 @@
 # Calculator_html_css_javascript
 
-This project is a functional web-based calculator developed to demonstrate core competencies in front-end development. It focuses on the seamless integration of HTML5, CSS3, and JavaScript, specifically highlighting efficient DOM manipulation and event handling to create an interactive user interface.
+This project is a functional web-based calculator developed to demonstrate core competencies in front-end development. It focuses on the seamless integration of HTML, CSS, and JavaScript, specifically highlighting efficient DOM manipulation and event handling to create an interactive user interface.
 
 ##  What does it do?
 
@@ -23,6 +23,7 @@ Error Handling: If you try to divide by zero, it shows an "Error" message so not
 ##  How to run it
 
 It's super simple:
+
 * Download the files.
 * Open index.html in your favorite browser.
 
