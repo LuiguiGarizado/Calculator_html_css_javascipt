@@ -13,9 +13,7 @@ body{
 }
 header h1 {
     margin: 0;
-    font-size: 2.5em;
     color: darkslategrey;
-    text-align: center;
 }
 
 .calculator{
@@ -25,6 +23,7 @@ header h1 {
   padding: 1.5rem;
   border-radius: 1.5rem;
   display: grid;
+  justify-content: flex-start;
   grid-template-columns: repeat(4 ,1fr);
   gap: 3px;
 }
